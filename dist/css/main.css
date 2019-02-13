@@ -76,7 +76,8 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #ffc62b; }
+      border: solid 3px #ffc62b;
+      background-size: cover; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -173,7 +174,8 @@ main {
     grid-area: bio-image;
     margin: auto;
     border-radius: 50%;
-    border: #ffc62b 3px solid; }
+    border: #ffc62b 3px solid;
+    max-width: 350px; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
